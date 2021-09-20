@@ -15,11 +15,11 @@ C:/Users/iisafca/Desktop/Unity Projeler/2DAnimationTutorials
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56338
+65444
 Successfully changed project path to: C:/Users/iisafca/Desktop/Unity Projeler/2DAnimationTutorials
 C:/Users/iisafca/Desktop/Unity Projeler/2DAnimationTutorials
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f1 (5e502cb56e17)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -35,74 +35,74 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002166 seconds.
+Registered in 0.002435 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.136 seconds
+- Completed reload, in  2.435 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2136ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (2435ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (482ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (564ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (203ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (200ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (99ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (68ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004803 seconds.
+Registered in 0.008073 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 73.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.377 seconds
+- Completed reload, in  1.588 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1377ms)
-		BeginReloadAssembly (167ms)
+	ReloadAssembly (1589ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1138ms)
-			LoadAssemblies (107ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1306ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (341ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (490ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (563ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (326ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (371ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2090 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 93.1 MB.
-System memory in use after: 93.1 MB.
+System memory in use after: 93.0 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2523.
-Total: 2.739500 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.300500 ms  DeleteObjects: 0.150300 ms)
+Total: 3.267300 ms (FindLiveObjects: 0.280400 ms CreateObjectMapping: 0.236700 ms MarkObjects: 2.576900 ms  DeleteObjects: 0.172000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,440 +131,104 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Mountain_2.png
-  artifactKey: Guid(35b557e85813f0d479101c3f07f57501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Mountain_2.png using Guid(35b557e85813f0d479101c3f07f57501) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96607a24f3adadda51be05bee3e9d04a') in 0.162874 seconds 
-  Import took 0.166755 seconds .
+  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Jump/2x.png
+  artifactKey: Guid(5d2d7f4ab1e201048be99e1dc5fc3488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Jump/2x.png using Guid(5d2d7f4ab1e201048be99e1dc5fc3488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfb704e4cee294a40641888d412b046') in 0.133083 seconds 
+  Import took 0.136697 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Mountain_1.png
-  artifactKey: Guid(76236e836f3521d4488eb04dfbbd19de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Mountain_1.png using Guid(76236e836f3521d4488eb04dfbbd19de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73dee3838986b4c78b85abfcf4100a6') in 0.019230 seconds 
-  Import took 0.023597 seconds .
+  Time since last request: 0.000308 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Jump/1x.png
+  artifactKey: Guid(f98aa3d998533f2479a54460b4d5a2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Jump/1x.png using Guid(f98aa3d998533f2479a54460b4d5a2d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1fb6b32b7d3987d1a9aedc0875800fe') in 0.021374 seconds 
+  Import took 0.026903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All
-  artifactKey: Guid(019832eb105646f4e968c58ddd46f371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All using Guid(019832eb105646f4e968c58ddd46f371) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2762cdbf4084cfc8ce6ed232fcae816') in 0.007738 seconds 
-  Import took 0.011633 seconds .
+  Time since last request: 1.641878 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/1x.png
+  artifactKey: Guid(a407a3b3fefdc4b4595de46072f1ba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/1x.png using Guid(a407a3b3fefdc4b4595de46072f1ba58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd4598d43aa89b6c922f61f89fc6c11') in 0.028345 seconds 
+  Import took 0.035580 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Hills_1.png
-  artifactKey: Guid(bc04fcad4faea944a8bfbfe731627020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Hills_1.png using Guid(bc04fcad4faea944a8bfbfe731627020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7675eace0e6961feadd43991cde76a') in 0.025401 seconds 
-  Import took 0.030533 seconds .
+  Time since last request: 0.000371 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/2x.png
+  artifactKey: Guid(2b22e58cf7fbd7946b874f61d6cbbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/2x.png using Guid(2b22e58cf7fbd7946b874f61d6cbbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8513d9428df2d691835d8ab804a2772') in 0.031483 seconds 
+  Import took 0.036772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000341 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Hills_2.png
-  artifactKey: Guid(3cf48c8f262fbe04a9d13d8edaa34fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Hills_2.png using Guid(3cf48c8f262fbe04a9d13d8edaa34fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fd623983ad7049b27ac7389e629488') in 0.020210 seconds 
-  Import took 0.024022 seconds .
+  Time since last request: 34.947442 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/2x.png
+  artifactKey: Guid(2b22e58cf7fbd7946b874f61d6cbbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/2x.png using Guid(2b22e58cf7fbd7946b874f61d6cbbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb3101893989ab30763d2ba8945fc99') in 0.017299 seconds 
+  Import took 0.022469 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Sky.png
-  artifactKey: Guid(76692b579eb85b94a84a9a139e8231ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Sky.png using Guid(76692b579eb85b94a84a9a139e8231ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157a3f0e91073ed5e12760c5a0f4c5fb') in 0.027594 seconds 
-  Import took 0.031712 seconds .
+  Time since last request: 0.011979 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/2x.png
+  artifactKey: Guid(2b22e58cf7fbd7946b874f61d6cbbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/2x.png using Guid(2b22e58cf7fbd7946b874f61d6cbbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bb3101893989ab30763d2ba8945fc99') in 0.011062 seconds 
+  Import took 0.016497 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Mountain_4.png
-  artifactKey: Guid(2f90d947c4b71504e96a89f91a4a724f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Mountain_4.png using Guid(2f90d947c4b71504e96a89f91a4a724f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed2c4c318cd586c482c7b2b6a59176a') in 0.026661 seconds 
-  Import took 0.029947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/Background/Background.png
-  artifactKey: Guid(a52c61e4d863eb24eb1a6cec742bd3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/Background/Background.png using Guid(a52c61e4d863eb24eb1a6cec742bd3ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee94a43253b340af8dc0a943a048a16c') in 0.026498 seconds 
-  Import took 0.030237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Mountain_3.png
-  artifactKey: Guid(eaf1608f86beb78408fb654eed4e1982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Backgrounds/Background/png/1920x1080/All/Mountain_3.png using Guid(eaf1608f86beb78408fb654eed4e1982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b1bedba8c4d4d4cb9914fced05bdd2') in 0.031478 seconds 
-  Import took 0.035018 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 127.567776 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Bush.png
-  artifactKey: Guid(a295202cb7658cf4b858a3bfe8e5e0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Bush.png using Guid(a295202cb7658cf4b858a3bfe8e5e0c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b3ea814034645452a83ef9dd214ab5') in 0.026564 seconds 
-  Import took 0.032014 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Tree.png
-  artifactKey: Guid(a0719ec8dfd104845904c76b6550b63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Autumn Tree.png using Guid(a0719ec8dfd104845904c76b6550b63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d1a610d3b810360f3c84f2ca897dae') in 0.038913 seconds 
-  Import took 0.045029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000664 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Bush.png
-  artifactKey: Guid(96148a5969d9bcf42ab10e2088f8cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Bush.png using Guid(96148a5969d9bcf42ab10e2088f8cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8589f1f7276018843240002cb90ea49e') in 0.029021 seconds 
-  Import took 0.035162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Winter Tree.png
-  artifactKey: Guid(e23ebd906a70ca347a1e102f96b7a2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Winter Tree.png using Guid(e23ebd906a70ca347a1e102f96b7a2aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf19777a159f999fd49d88aa11ccad2') in 0.035090 seconds 
-  Import took 0.040210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-2.png
-  artifactKey: Guid(ec10fd6e05fb50c4783167418288578d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-2.png using Guid(ec10fd6e05fb50c4783167418288578d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5fffa1fdba817200d0f79911043ffc') in 0.031919 seconds 
-  Import took 0.036480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Tree.png
-  artifactKey: Guid(ccf2af7e5774cf84592daa40d84c1b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Tree.png using Guid(ccf2af7e5774cf84592daa40d84c1b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81b96f3d1bd1c275d56f4a77eb970d42') in 0.034195 seconds 
-  Import took 0.042120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-3.png
-  artifactKey: Guid(41cccea4cdff96e46b4643d6b38e07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-3.png using Guid(41cccea4cdff96e46b4643d6b38e07b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7403da1b0a4a84d79b442e7a014357d7') in 0.028538 seconds 
-  Import took 0.032782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-1.png
-  artifactKey: Guid(455987c62401e364387f9de25abc1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-1.png using Guid(455987c62401e364387f9de25abc1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9815e408135050661f832ea34c4866d9') in 0.032433 seconds 
-  Import took 0.037342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008407 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-1.png
-  artifactKey: Guid(455987c62401e364387f9de25abc1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/New Details ( Update 1.9 )/2x/Flower-1.png using Guid(455987c62401e364387f9de25abc1ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9815e408135050661f832ea34c4866d9') in 0.021270 seconds 
-  Import took 0.025738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.332616 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png
-  artifactKey: Guid(951ec2ce772bec1418f69a188033f447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png using Guid(951ec2ce772bec1418f69a188033f447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e777b49eb18e6d1469414c1c3fd8c2') in 0.011202 seconds 
-  Import took 0.016136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.295181 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All
-  artifactKey: Guid(8c6fb86a9fbc7b0478f904a582db5992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All using Guid(8c6fb86a9fbc7b0478f904a582db5992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e51f4bf8a07a278ff9f1162a1252dac') in 0.004249 seconds 
-  Import took 0.010635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.970032 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x
-  artifactKey: Guid(d6eb1dd11e4499443b610608a8de0588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x using Guid(d6eb1dd11e4499443b610608a8de0588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3af21ae02dea4705387440b0772430') in 0.011896 seconds 
-  Import took 0.017247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.717534 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 1.png
-  artifactKey: Guid(c880b771ce84ecf4c92269c2a7a4d6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 1.png using Guid(c880b771ce84ecf4c92269c2a7a4d6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c4f699d812df243bd2621851d2e1802') in 0.030172 seconds 
-  Import took 0.034183 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 11.png
-  artifactKey: Guid(b51b0e52d434ca649b8aea2ad9518986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 11.png using Guid(b51b0e52d434ca649b8aea2ad9518986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1de1e1e031c2c7c3d564a49d600f135') in 0.027512 seconds 
-  Import took 0.032124 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 4.png
-  artifactKey: Guid(3fcff7da7e0642a40938e80ad8c93b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 4.png using Guid(3fcff7da7e0642a40938e80ad8c93b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2d5ea4fb561296f64b80d642831d9f') in 0.028774 seconds 
-  Import took 0.033627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000480 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 12.png
-  artifactKey: Guid(4d105fdea99ea2b4491c3f67c6416958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 12.png using Guid(4d105fdea99ea2b4491c3f67c6416958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f022722e57b6391b35138f11324699cb') in 0.031812 seconds 
-  Import took 0.036591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000381 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 8.png
-  artifactKey: Guid(354b609137916174b88790df91aabcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 8.png using Guid(354b609137916174b88790df91aabcd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b157a408d004f31991e72ec37850816') in 0.030619 seconds 
-  Import took 0.039313 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 14.png
-  artifactKey: Guid(4b20e3d0e0f143b449ef2e50b335c191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 14.png using Guid(4b20e3d0e0f143b449ef2e50b335c191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63395265bf9c3850c3546f542319f050') in 0.031626 seconds 
-  Import took 0.038636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000362 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 2.png
-  artifactKey: Guid(013382efc1e90874f846e4e0e6929ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 2.png using Guid(013382efc1e90874f846e4e0e6929ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca87d29258edd11f9353df6703c30a14') in 0.030251 seconds 
-  Import took 0.035092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 15.png
-  artifactKey: Guid(ec17f2142c3b7fc4c81e3432a4dbf986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 15.png using Guid(ec17f2142c3b7fc4c81e3432a4dbf986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684cc38d50ce4ef15f3f1ade418fc7ed') in 0.031291 seconds 
-  Import took 0.035385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 13.png
-  artifactKey: Guid(8d013f764ab602d4caee7dc1d775e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 13.png using Guid(8d013f764ab602d4caee7dc1d775e63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71cc098215f3658762369d3edb932b6a') in 0.029977 seconds 
-  Import took 0.035540 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000662 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 7.png
-  artifactKey: Guid(a1eba9de1c2bf6c4782304ab5dbcec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 7.png using Guid(a1eba9de1c2bf6c4782304ab5dbcec8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9a1564265c0e2e853231b95e6a48cd') in 0.027880 seconds 
-  Import took 0.033062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 6.png
-  artifactKey: Guid(f19254063d103c049a1ca51a22be23ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 6.png using Guid(f19254063d103c049a1ca51a22be23ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932875b18378c612610d802a5b2f9cc9') in 0.025375 seconds 
-  Import took 0.031975 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 9.png
-  artifactKey: Guid(5a83fc290cbf76e4bb5de77f1b785dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 9.png using Guid(5a83fc290cbf76e4bb5de77f1b785dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06414ddb3a62b249833e0e07046ddb76') in 0.027514 seconds 
-  Import took 0.032553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 3.png
-  artifactKey: Guid(07ff8ccef6e3b484b9f4300dc6413b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 3.png using Guid(07ff8ccef6e3b484b9f4300dc6413b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578070ca5b3769d06fd20b9f5c661889') in 0.021688 seconds 
-  Import took 0.027285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000346 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 5.png
-  artifactKey: Guid(e189dc7549d38e44e81be5d8d55e5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 5.png using Guid(e189dc7549d38e44e81be5d8d55e5b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368b4a7ba906d0bb892d8a8fc1b8a6d0') in 0.028877 seconds 
-  Import took 0.033385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 10.png
-  artifactKey: Guid(88d78802102224f42af0fa14f9beb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Environments/Environments/png/All/4x/Asset 10.png using Guid(88d78802102224f42af0fa14f9beb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9daf637ccbbfe038c46511777b156a1c') in 0.030984 seconds 
-  Import took 0.035267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.403592 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/1x.png
-  artifactKey: Guid(c483493eb3ec0f143b5d78ad823ac661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/1x.png using Guid(c483493eb3ec0f143b5d78ad823ac661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a57441e88d8a2ca368a63b647ec366d') in 0.029433 seconds 
-  Import took 0.034465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/2x.png
-  artifactKey: Guid(6bd1c00f5f6ecc746b6e2277f8a7d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/2x.png using Guid(6bd1c00f5f6ecc746b6e2277f8a7d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886338371c2384e3d97361bf8f5d6aac') in 0.025143 seconds 
-  Import took 0.028554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.357318 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle
-  artifactKey: Guid(b2fccbf6373b5ee43872873fb27a403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle using Guid(b2fccbf6373b5ee43872873fb27a403c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7282f7921757d7769c39938344b0f958') in 0.010600 seconds 
-  Import took 0.015593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 56.911018 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/2x.prefab
-  artifactKey: Guid(7aefa59c8fc805a4c9e5f461bed4ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/2x.prefab using Guid(7aefa59c8fc805a4c9e5f461bed4ebea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488ef84b9fbaf004d4cdc261058473e9') in 0.045370 seconds 
-  Import took 0.050417 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.316497 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/Blink
-  artifactKey: Guid(98c566e663ee788429ae843b64df36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/Blink using Guid(98c566e663ee788429ae843b64df36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532d74ea5f5a55d91775a96d144ed5d5') in 0.009930 seconds 
-  Import took 0.015856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/Blink
-  artifactKey: Guid(98c566e663ee788429ae843b64df36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/Blink using Guid(98c566e663ee788429ae843b64df36ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532d74ea5f5a55d91775a96d144ed5d5') in 0.003484 seconds 
-  Import took 0.008045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.429095 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/2x.png
-  artifactKey: Guid(6bd1c00f5f6ecc746b6e2277f8a7d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/2x.png using Guid(6bd1c00f5f6ecc746b6e2277f8a7d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bcdde0823e78c85a4344395601e474') in 0.016600 seconds 
-  Import took 0.022704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 116.436924 seconds.
-  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/2x.png
-  artifactKey: Guid(6bd1c00f5f6ecc746b6e2277f8a7d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Idle/2x.png using Guid(6bd1c00f5f6ecc746b6e2277f8a7d292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34b00781b88e4d9ded36d756af70811') in 0.070652 seconds 
-  Import took 0.075786 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.581781 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.009177 seconds 
-  Import took 0.013831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.508426 seconds.
-  path: Assets/New Folder
-  artifactKey: Guid(450b8ef1eaf327c4498b60de26845bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Folder using Guid(450b8ef1eaf327c4498b60de26845bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4340b320057e4d8379dd5bd60a59135d') in 0.008424 seconds 
-  Import took 0.013125 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.138810 seconds.
-  path: Assets/Animations
-  artifactKey: Guid(450b8ef1eaf327c4498b60de26845bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations using Guid(450b8ef1eaf327c4498b60de26845bcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ce55be90e81cc8de59d56ace04577f') in 0.007845 seconds 
-  Import took 0.012817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 146.732731 seconds.
-  path: Assets/Animations/Player.controller
-  artifactKey: Guid(fff9673f85c2a864d978cf6014e646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player.controller using Guid(fff9673f85c2a864d978cf6014e646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0125ff9e9bcc8a288eb291f7f42fdcb') in 0.012006 seconds 
-  Import took 0.016968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001299 seconds.
-  path: Assets/Animations/Player.controller
-  artifactKey: Guid(fff9673f85c2a864d978cf6014e646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player.controller using Guid(fff9673f85c2a864d978cf6014e646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0125ff9e9bcc8a288eb291f7f42fdcb') in 0.003328 seconds 
-  Import took 0.007370 seconds .
+  Time since last request: 12.839262 seconds.
+  path: Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/2x.png
+  artifactKey: Guid(2b22e58cf7fbd7946b874f61d6cbbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BayatGames/Free Platform Game Assets/Character/Character Animation ( Update 1.8 )/Run/2x.png using Guid(2b22e58cf7fbd7946b874f61d6cbbebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7812c8eae002e062935e422292a893') in 0.108392 seconds 
+  Import took 0.113792 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004808 seconds.
+Registered in 0.006220 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.343 seconds
+- Completed reload, in  1.532 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1344ms)
-		BeginReloadAssembly (132ms)
+	ReloadAssembly (1533ms)
+		BeginReloadAssembly (170ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (1135ms)
-			LoadAssemblies (105ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1229ms)
+			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (407ms)
+			SetupTypeCache (395ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (443ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (501ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (8ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.1 MB.
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2583.
-Total: 2.988900 ms (FindLiveObjects: 0.240100 ms CreateObjectMapping: 0.080400 ms MarkObjects: 2.546900 ms  DeleteObjects: 0.120300 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2561.
+Total: 2.871800 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.079100 ms MarkObjects: 2.408800 ms  DeleteObjects: 0.148600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -577,50 +241,90 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 121.725763 seconds.
+  path: Assets/Animations/PlayerIdle.anim
+  artifactKey: Guid(f01b6a2ac42f8584e9bebce21eb00f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlayerIdle.anim using Guid(f01b6a2ac42f8584e9bebce21eb00f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a15315abe59a7e96e9ba6741f800d58') in 0.028593 seconds 
+  Import took 0.035985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.725081 seconds.
+  path: Assets/Animations/PlayerRunAnim.anim
+  artifactKey: Guid(79bc82c01eb869146b2d53be177e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlayerRunAnim.anim using Guid(79bc82c01eb869146b2d53be177e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e0ce58c4066ed5ade0c877d881c5e4') in 0.012863 seconds 
+  Import took 0.017872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003643 seconds.
+  path: Assets/Animations/PlayerRunAnim.anim
+  artifactKey: Guid(79bc82c01eb869146b2d53be177e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlayerRunAnim.anim using Guid(79bc82c01eb869146b2d53be177e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e0ce58c4066ed5ade0c877d881c5e4') in 0.003741 seconds 
+  Import took 0.009977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.364887 seconds.
+  path: Assets/Animations/Player.controller
+  artifactKey: Guid(fff9673f85c2a864d978cf6014e646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player.controller using Guid(fff9673f85c2a864d978cf6014e646b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0abfd71d5dc93b299a4b8fedbb7a60c') in 0.015611 seconds 
+  Import took 0.020467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.795208 seconds.
+  path: Assets/Animations/PlayerRunAnim.controller
+  artifactKey: Guid(96c872d1d13edfa4d981919abf41ee9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/PlayerRunAnim.controller using Guid(96c872d1d13edfa4d981919abf41ee9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bdb85ff776b0f04ff7684f65cd6a10') in 0.003985 seconds 
+  Import took 0.009581 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004878 seconds.
+Registered in 0.006726 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.170 seconds
+- Completed reload, in  1.409 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1170ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1409ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (986ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1192ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (310ms)
+			SetupTypeCache (404ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (395ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (485ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (312ms)
-				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.2 MB.
-System memory in use after: 96.2 MB.
+System memory in use before: 96.1 MB.
+System memory in use after: 96.1 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2587.
-Total: 2.677800 ms (FindLiveObjects: 0.190700 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.253900 ms  DeleteObjects: 0.155700 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2565.
+Total: 3.196200 ms (FindLiveObjects: 0.209100 ms CreateObjectMapping: 0.067600 ms MarkObjects: 2.767900 ms  DeleteObjects: 0.150300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
